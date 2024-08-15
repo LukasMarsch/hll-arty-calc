@@ -56,6 +56,7 @@ public static class MilCalc {
             if(meters < 100) {
                 return "Too Small";
             }
+            return meters;
         }
         catch (FormatException){
             return "Not a whole Number";
