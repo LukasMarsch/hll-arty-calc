@@ -64,7 +64,6 @@ public static class MilCalc {
         catch (OverflowException) {
             return "Too Large";
         }
-        return "Internal Issue";
     }
 
     public static int Mils(int meters) {
